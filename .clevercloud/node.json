@@ -1,0 +1,8 @@
+{
+    "build": {
+        "type": "npm"
+    },
+    "deploy": {
+        "start": "npm run start"
+    }
+}
