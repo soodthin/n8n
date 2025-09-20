@@ -1,8 +1,12 @@
 {
-    "build": {
-        "type": "npm"
-    },
-    "deploy": {
-        "start": "npm run start"
-    }
+  "build": {
+    "type": "pnpm",
+    "commands": [
+      "pnpm install --frozen-lockfile",
+      "pnpm build"
+    ]
+  },
+  "deploy": {
+    "start": "pnpm start"
+  }
 }
